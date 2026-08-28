@@ -15,14 +15,15 @@ def parse_games():
             if page == 1:
                 url = BASE_URL
             else:
-                url = f"{BASE_URL}page/{page}/"
+                # ИСПРАВЛЕНО: добавлен слэш перед page, чтобы ссылка формировалась правильно
+                url = f"{BASE_URL}/page/{page}/"
                 
-            print(f"Парсим страницу {page}...")
+            print(f"Парсим страницу {page} -> {url}")
             
             try:
                 response = session.get(url, impersonate="chrome120", timeout=10)
                 
-                # Если сайт выдал ошибку 404 (страница не существует), значит каталог закончился
+                # Если сайт выдал ошибку 404, значит каталог закончился
                 if response.status_code == 404:
                     print(f"Достигли конца сайта на странице {page}. Сборка окончена.")
                     break
@@ -32,8 +33,6 @@ def parse_games():
                     continue
                     
                 soup = BeautifulSoup(response.text, 'html.parser')
-                
-                # Находим все ссылки на странице
                 links = soup.find_all('a', href=True)
                 
                 page_games_count = 0
@@ -41,7 +40,6 @@ def parse_games():
                     game_url = link_tag['href']
                     title = link_tag.text.strip()
                     
-                    # Проверяем, что ссылка ведет на игру
                     if not game_url.startswith(BASE_URL) or len(game_url) <= len(BASE_URL):
                         continue
                         
@@ -52,7 +50,6 @@ def parse_games():
                     if not title or len(title) < 3 or title in ["Регистрация", "Вход", "Правила", "Главная", "Популярные игры"]:
                         continue
 
-                    # Проверяем на дубликаты
                     if any(d["title"] == title for d in downloads):
                         continue
 
@@ -75,11 +72,10 @@ def parse_games():
                     break
                 
                 page += 1
-                time.sleep(0.2) # Легкая пауза, чтобы не злить сервер
+                time.sleep(0.2) # Легкая пауза для стабильности
                 
             except Exception as e:
                 print(f"Ошибка на странице {page}: {e}")
-                # Если произошел сбой сети, пробуем идти дальше
                 page += 1
                 continue
 
