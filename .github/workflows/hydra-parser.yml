@@ -1,0 +1,42 @@
+name: Update Hydra Launcher Source
+
+on:
+  schedule:
+    # Запускать каждый день в полночь
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Кнопка для ручного запуска в панели управления
+
+permissions:
+  contents: write
+
+jobs:
+  run-parser:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Копируем файлы репозитория
+      uses: actions/checkout@v4
+
+    - name: Включаем Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Устанавливаем библиотеки
+      run: |
+        pip install -r requirements.txt
+
+    - name: Запускаем парсер
+      run: python parser.py
+
+    - name: Сохраняем результат в наш репозиторий
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@://github.com"
+        git add thelastgame_source.json
+        if git diff --staged --quiet; then
+          echo "Новых игр не найдено."
+        else
+          git commit -m "Авто-обновление списка игр"
+          git push
+        fi
