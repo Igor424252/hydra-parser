@@ -1,5 +1,5 @@
 {
-  "name": "TheLastGame [Обновлено: 28.08 14:50]",
+  "name": "TheLastGame [Вся База: 28.08 14:58]",
   "downloads": [
     {
       "title": "Инди",
@@ -7,8 +7,8 @@
         "https://thelastgame.org/indie/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/indie/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/indie/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -17,8 +17,8 @@
         "https://thelastgame.org/full-version/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/full-version/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/full-version/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -27,8 +27,8 @@
         "https://thelastgame.org/2026-god/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/2026-god/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/2026-god/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -37,19 +37,18 @@
         "https://thelastgame.org/game-rus/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/game-rus/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/game-rus/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "VHOLUME",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31334",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31334&f=VHOLUME"
+        "https://thelastgame.org/9955-vholume.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/9955-vholume.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/9955-vholume.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -58,19 +57,18 @@
         "https://thelastgame.org/action/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/action/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/action/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Rogue Eclipse",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31333",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31333&f=Rogue Eclipse"
+        "https://thelastgame.org/9954-rogue-eclipse.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/9954-rogue-eclipse.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/9954-rogue-eclipse.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -79,8 +77,8 @@
         "https://thelastgame.org/2013-god/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/2013-god/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/2013-god/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -89,8 +87,8 @@
         "https://thelastgame.org/shooter/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/shooter/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/shooter/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -99,8 +97,8 @@
         "https://thelastgame.org/rpg/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/rpg/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/rpg/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -109,8 +107,8 @@
         "https://thelastgame.org/simulator/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/simulator/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/simulator/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -119,8 +117,8 @@
         "https://thelastgame.org/adventure/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/adventure/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/adventure/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -129,8 +127,8 @@
         "https://thelastgame.org/1st-person/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/1st-person/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/1st-person/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -139,8 +137,8 @@
         "https://thelastgame.org/open-world/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/open-world/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/open-world/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -149,30 +147,28 @@
         "https://thelastgame.org/survival-game/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/survival-game/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/survival-game/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Rust",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31332",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31332&f=Rust"
+        "https://thelastgame.org/258-rust.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/258-rust.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/258-rust.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Korea. IL-2 Series",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31331",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31331&f=Korea. IL-2 Series"
+        "https://thelastgame.org/9953-korea-il-2-series.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/9953-korea-il-2-series.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/9953-korea-il-2-series.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -181,19 +177,18 @@
         "https://thelastgame.org/2016-god/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/2016-god/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/2016-god/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "The Elder Scrolls 5: Skyrim Special Edition",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31330",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31330&f=The Elder Scrolls 5: Skyrim Special Edition"
+        "https://thelastgame.org/9952-the-elder-scrolls-5-skyrim-special-edition.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/9952-the-elder-scrolls-5-skyrim-special-edition.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/9952-the-elder-scrolls-5-skyrim-special-edition.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -202,19 +197,18 @@
         "https://thelastgame.org/zombie-games/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/zombie-games/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/zombie-games/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Yet Another Zombie Survivors",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31329",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31329&f=Yet Another Zombie Survivors"
+        "https://thelastgame.org/4732-yet-another-zombie-survivors.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/4732-yet-another-zombie-survivors.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/4732-yet-another-zombie-survivors.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -223,8 +217,8 @@
         "https://thelastgame.org/strategy/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/strategy/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/strategy/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -233,19 +227,18 @@
         "https://thelastgame.org/2021-god/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/2021-god/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/2021-god/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "HUMANKIND",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31328",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31328&f=HUMANKIND"
+        "https://thelastgame.org/5919-humankind.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/5919-humankind.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/5919-humankind.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -254,96 +247,88 @@
         "https://thelastgame.org/igry-dlja-slabyh-pk/"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/igry-dlja-slabyh-pk/\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/igry-dlja-slabyh-pk/\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Blood Dungeon",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31327",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31327&f=Blood Dungeon"
+        "https://thelastgame.org/9951-blood-dungeon.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/9951-blood-dungeon.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/9951-blood-dungeon.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Герои меча и магии 3",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31326",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31326&f=Герои меча и магии 3"
+        "https://thelastgame.org/9950-geroi-mecha-i-magii-3.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/9950-geroi-mecha-i-magii-3.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/9950-geroi-mecha-i-magii-3.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Sally Face Episode 1-5",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=31325",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=31325&f=Sally Face Episode 1-5"
+        "https://thelastgame.org/2210-sally-face-episode-1-5.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/2210-sally-face-episode-1-5.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/2210-sally-face-episode-1-5.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Cyberpunk 2077",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=25167",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=25167&f=Cyberpunk 2077"
+        "https://thelastgame.org/981-22-cyberpunk-2077.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/981-22-cyberpunk-2077.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/981-22-cyberpunk-2077.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Teardown",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=28477",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=28477&f=Teardown"
+        "https://thelastgame.org/858-teardown.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/858-teardown.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/858-teardown.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Marvel’s Spider-Man Remastered",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=13623",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=13623&f=Marvel’s Spider-Man Remastered"
+        "https://thelastgame.org/3761-6-marvels-spider-man-remastered.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/3761-6-marvels-spider-man-remastered.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/3761-6-marvels-spider-man-remastered.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Tiny Bunny",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=29415",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=29415&f=Tiny Bunny"
+        "https://thelastgame.org/550-tiny-bunny.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/550-tiny-bunny.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/550-tiny-bunny.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
       "title": "Islands and Trains",
       "uris": [
-        "https://thelastgame.org/index.php?do=download&id=24066",
-        "https://sub2.bubblesmedia.net/tPJuh0I4KXdj4VLD8bfrj3yuN4sM930ftbOgSPQ3/s/6393/h/e77887/o/145/sub/0?a=1&u=https://thelastgame.org/index.php?do=download&id=24066&f=Islands and Trains"
+        "https://thelastgame.org/7212-islands-and-trains.html"
       ],
       "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/7212-islands-and-trains.html\">Инструкция на TheLastGame</a>",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/7212-islands-and-trains.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     }
   ]
