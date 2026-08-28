@@ -1,15 +1,4 @@
 {
-  "name": "TheLastGame Полный Каталог",
-  "downloads": [
-    {
-      "title": "Регистрация",
-      "uris": [
-        "https://thelastgame.org/index.php?do=register"
-      ],
-      "uploadDate": "Страница 1",
-      "fileSize": "Уточняется на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/index.php?do=register\">Инструкция и скачивание на TheLastGame</a>",
-      "linksHidden": false
-    }
-  ]
+  "name": "TheLastGame Чистый Каталог",
+  "downloads": []
 }
