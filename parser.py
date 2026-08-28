@@ -5,24 +5,50 @@ import time
 from datetime import datetime, timedelta
 
 BASE_URL = "https://thelastgame.org"
-MAX_PAGES = 5  # Сколько страниц обходить
+
+def get_max_pages(session):
+    """Функция автоматически находит последнюю страницу на сайте"""
+    try:
+        response = session.get(BASE_URL, impersonate="chrome120", timeout=15)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            # Ищем блок пагинации
+            navigation = soup.find('div', class_='navigation') or soup.find('div', class_='pages')
+            if navigation:
+                links = navigation.find_all('a')
+                page_numbers = []
+                for link in links:
+                    if link.text.isdigit():
+                        page_numbers.append(int(link.text))
+                if page_numbers:
+                    return max(page_numbers)
+    except Exception as e:
+        print(f"Не удалось определить максимальное число страниц: {e}")
+    return 100  # Запасной вариант, если пагинация не спарсилась
 
 def parse_games():
     downloads = []
     
     with requests.Session() as session:
-        for page in range(1, MAX_PAGES + 1):
+        # Автоматически определяем, сколько страниц на сайте всего
+        max_pages = get_max_pages(session)
+        print(f"Найдено страниц для обхода: {max_pages}")
+        
+        for page in range(1, max_pages + 1):
             url = BASE_URL if page == 1 else f"{BASE_URL}page/{page}/"
-            print(f"Запрос к странице {page}: {url}")
+            print(f"Парсим страницу {page} из {max_pages}...")
             
             try:
-                response = session.get(url, impersonate="chrome120", timeout=15)
+                # Ставим быстрый таймаут, чтобы скрипт не зависал долго на плохих страницах
+                response = session.get(url, impersonate="chrome120", timeout=10)
                 if response.status_code != 200:
+                    print(f"Пропущена страница {page} (код {response.status_code})")
                     continue
                     
                 soup = BeautifulSoup(response.text, 'html.parser')
                 links = soup.find_all('a', href=True)
                 
+                page_games_count = 0
                 for link_tag in links:
                     game_url = link_tag['href']
                     title = link_tag.text.strip()
@@ -40,38 +66,22 @@ def parse_games():
                     if any(d["title"] == title for d in downloads):
                         continue
 
-                    print(f" -> Страница игры: {title}")
-                    try:
-                        inner_res = session.get(game_url, impersonate="chrome120", timeout=10)
-                        if inner_res.status_code == 200:
-                            inner_soup = BeautifulSoup(inner_res.text, 'html.parser')
-                            
-                            download_uris = []
-                            for a_tag in inner_soup.find_all('a', href=True):
-                                href = a_tag['href']
-                                if ".torrent" in href or "magnet:" in href or "datanodes" in href or "download" in href:
-                                    download_uris.append(href)
-                            
-                            if not download_uris:
-                                download_uris = [game_url]
-                        else:
-                            download_uris = [game_url]
-                    except Exception as inner_err:
-                        download_uris = [game_url]
-                    
-                    time.sleep(0.5)
-
+                    # Чтобы скрипт не падал по тайм-ауту GitHub Actions на 1000+ страницах, 
+                    # мы НЕ заходим внутрь каждой игры, а берем прямую ссылку на пост.
+                    # Hydra Launcher это отлично переваривает!
                     download_entry = {
                         "title": title,
-                        "uris": download_uris,
+                        "uris": [game_url],
                         "uploadDate": f"Страница {page}",
-                        "fileSize": "Уточняется на сайте",
-                        "descriptionHtml": f'<a href="{game_url}">Инструкция на TheLastGame</a>',
+                        "fileSize": "Доступно на сайте",
+                        "descriptionHtml": f'<a href="{game_url}">Открыть страницу загрузки игры</a>',
                         "linksHidden": False
                     }
                     downloads.append(download_entry)
-                    
-                time.sleep(2)
+                    page_games_count += 1
+                
+                # Маленькая пауза, чтобы не нагружать сайт
+                time.sleep(0.3)
                 
             except Exception as e:
                 print(f"Ошибка на странице {page}: {e}")
@@ -82,12 +92,9 @@ def parse_games():
 def main():
     game_list = parse_games()
     
-    # Создаем метку времени (корректируем UTC время GitHub под ваш часовой пояс, добавим примерные +5 часов)
     current_time = datetime.utcnow() + timedelta(hours=5)
     time_str = current_time.strftime("%d.%m %H:%M")
-    
-    # Динамическое имя, которое заставит Hydra Launcher сбросить кэш
-    source_name = f"TheLastGame [Обновлено: {time_str}]"
+    source_name = f"TheLastGame [Вся База: {time_str}]"
     
     hydra_source = {
         "name": source_name,
@@ -97,7 +104,8 @@ def main():
     with open("thelastgame_source.json", "w", encoding="utf-8") as f:
         json.dump(hydra_source, f, ensure_ascii=False, indent=2)
         
-    print(f"\n[ФИНАЛ] Сборка завершена. Источник назван: '{source_name}'. Игр: {len(game_list)}")
+    print(f"\n[УСПЕХ] Сборка всей базы завершена!")
+    print(f"Всего игр сохранено в файл: {len(game_list)}")
 
 if __name__ == "__main__":
     main()
