@@ -10,12 +10,12 @@ def parse_games():
     downloads = []
     page = 1
     
+    # Открываем сессию с имитацией реального браузера Google Chrome
     with requests.Session() as session:
-        while True:  # Бесконечный цикл, пока не кончатся игры
+        while True:
             if page == 1:
                 url = BASE_URL
             else:
-                # ИСПРАВЛЕНО: добавлен слэш перед page, чтобы ссылка формировалась правильно
                 url = f"{BASE_URL}/page/{page}/"
                 
             print(f"Парсим страницу {page} -> {url}")
@@ -23,7 +23,7 @@ def parse_games():
             try:
                 response = session.get(url, impersonate="chrome120", timeout=10)
                 
-                # Если сайт выдал ошибку 404, значит каталог закончился
+                # Если сайт вернул 404, значит мы долистали до самого конца каталога
                 if response.status_code == 404:
                     print(f"Достигли конца сайта на странице {page}. Сборка окончена.")
                     break
@@ -40,19 +40,24 @@ def parse_games():
                     game_url = link_tag['href']
                     title = link_tag.text.strip()
                     
+                    # Проверяем, что ссылка ведет именно на страницу с игрой
                     if not game_url.startswith(BASE_URL) or len(game_url) <= len(BASE_URL):
                         continue
                         
+                    # Фильтруем служебный мусор (комментарии, правила, регистрацию)
                     black_list = ["do=", "rules", "index.php", "/page/", "category", "search", "tags", "about"]
                     if any(garbage in game_url for garbage in black_list):
                         continue
                         
+                    # Отсекаем пустые ссылки и пункты меню
                     if not title or len(title) < 3 or title in ["Регистрация", "Вход", "Правила", "Главная", "Популярные игры"]:
                         continue
 
+                    # Защита от дублирования игр в итоговом файле
                     if any(d["title"] == title for d in downloads):
                         continue
 
+                    # Формируем карточку игры под стандарт Hydra Launcher
                     download_entry = {
                         "title": title,
                         "uris": [game_url],
@@ -64,7 +69,7 @@ def parse_games():
                     downloads.append(download_entry)
                     page_games_count += 1
                 
-                print(f"Cо страницы {page} добавлено новых игр: {page_games_count}")
+                print(f"Cо страницы {page} успешно добавлено новых игр: {page_games_count}")
                 
                 # Если на странице вообще не нашлось уникальных игр, останавливаемся
                 if page_games_count == 0:
@@ -72,7 +77,7 @@ def parse_games():
                     break
                 
                 page += 1
-                time.sleep(0.2) # Легкая пауза для стабильности
+                time.sleep(0.1) # Микропауза для стабильности, чтобы не терять скорость
                 
             except Exception as e:
                 print(f"Ошибка на странице {page}: {e}")
@@ -84,12 +89,17 @@ def parse_games():
 def main():
     game_list = parse_games()
     
+    # Корректируем время под ваш часовой пояс (+5 часов к UTC)
     current_time = datetime.utcnow() + timedelta(hours=5)
     time_str = current_time.strftime("%d.%m %H:%M")
-    source_name = f"TheLastGame [Вся База: {time_str}]"
+    
+    # Генерируем уникальный ID источника на основе текущей минуты.
+    # Это заставит Hydra Launcher принудительно обновлять базу игр у вас на ПК!
+    unique_timestamp = current_time.strftime("%Y%m%d%H%M")
     
     hydra_source = {
-        "name": source_name,
+        "id": f"thelastgame-source-{unique_timestamp}", # Каждое обновление ID будет новым!
+        "name": f"TheLastGame [База: {time_str}]",
         "downloads": game_list
     }
     
@@ -98,6 +108,7 @@ def main():
         
     print(f"\n[УСПЕХ] Сборка всей базы завершена!")
     print(f"Всего игр сохранено в файл: {len(game_list)}")
+    print(f"Новый ID источника: thelastgame-source-{unique_timestamp}")
 
 if __name__ == "__main__":
     main()
