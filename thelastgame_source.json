@@ -1,6 +1,6 @@
 {
-  "id": "thelastgame-source-202609030703",
-  "name": "TheLastGame [База: 03.09 07:03]",
+  "id": "thelastgame-source-202609040658",
+  "name": "TheLastGame [База: 04.09 06:58]",
   "downloads": [
     {
       "title": "Приключения",
@@ -343,13 +343,13 @@
       "linksHidden": false
     },
     {
-      "title": "Paper Animal Adventure",
+      "title": "Ritual Sorcerer Angel",
       "uris": [
-        "https://thelastgame.org/7778-paper-animal-adventure.html"
+        "https://thelastgame.org/4178-ritual-sorcerer-angel.html"
       ],
       "uploadDate": "Страница 1",
       "fileSize": "Доступно на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/7778-paper-animal-adventure.html\">Открыть страницу загрузки игры</a>",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/4178-ritual-sorcerer-angel.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -20090,6 +20090,16 @@
       "uploadDate": "Страница 197",
       "fileSize": "Доступно на сайте",
       "descriptionHtml": "<a href=\"https://thelastgame.org/8950-lone-fungus-melody-of-spores.html\">Открыть страницу загрузки игры</a>",
+      "linksHidden": false
+    },
+    {
+      "title": "Paper Animal Adventure",
+      "uris": [
+        "https://thelastgame.org/7778-paper-animal-adventure.html"
+      ],
+      "uploadDate": "Страница 197",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/7778-paper-animal-adventure.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -71330,16 +71340,6 @@
       "uploadDate": "Страница 712",
       "fileSize": "Доступно на сайте",
       "descriptionHtml": "<a href=\"https://thelastgame.org/4180-freud-gate.html\">Открыть страницу загрузки игры</a>",
-      "linksHidden": false
-    },
-    {
-      "title": "Ritual Sorcerer Angel",
-      "uris": [
-        "https://thelastgame.org/4178-ritual-sorcerer-angel.html"
-      ],
-      "uploadDate": "Страница 712",
-      "fileSize": "Доступно на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/4178-ritual-sorcerer-angel.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
