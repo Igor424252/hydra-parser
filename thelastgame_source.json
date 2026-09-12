@@ -1,6 +1,6 @@
 {
-  "id": "thelastgame-source-202609110702",
-  "name": "TheLastGame [База: 11.09 07:02]",
+  "id": "thelastgame-source-202609120707",
+  "name": "TheLastGame [База: 12.09 07:07]",
   "downloads": [
     {
       "title": "Стратегии",
@@ -343,13 +343,13 @@
       "linksHidden": false
     },
     {
-      "title": "ToHeart",
+      "title": "Blade of God",
       "uris": [
-        "https://thelastgame.org/7139-toheart.html"
+        "https://thelastgame.org/1686-blade-of-god.html"
       ],
       "uploadDate": "Страница 1",
       "fileSize": "Доступно на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/7139-toheart.html\">Открыть страницу загрузки игры</a>",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/1686-blade-of-god.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -42680,6 +42680,16 @@
       "uploadDate": "Страница 425",
       "fileSize": "Доступно на сайте",
       "descriptionHtml": "<a href=\"https://thelastgame.org/7140-unbroken.html\">Открыть страницу загрузки игры</a>",
+      "linksHidden": false
+    },
+    {
+      "title": "ToHeart",
+      "uris": [
+        "https://thelastgame.org/7139-toheart.html"
+      ],
+      "uploadDate": "Страница 425",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/7139-toheart.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -91540,16 +91550,6 @@
       "uploadDate": "Страница 915",
       "fileSize": "Доступно на сайте",
       "descriptionHtml": "<a href=\"https://thelastgame.org/1687-lost-words-beyond-the-page.html\">Открыть страницу загрузки игры</a>",
-      "linksHidden": false
-    },
-    {
-      "title": "Blade of God",
-      "uris": [
-        "https://thelastgame.org/1686-blade-of-god.html"
-      ],
-      "uploadDate": "Страница 915",
-      "fileSize": "Доступно на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/1686-blade-of-god.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
