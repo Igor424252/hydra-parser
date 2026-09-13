@@ -1,6 +1,6 @@
 {
-  "id": "thelastgame-source-202609120707",
-  "name": "TheLastGame [База: 12.09 07:07]",
+  "id": "thelastgame-source-202609130701",
+  "name": "TheLastGame [База: 13.09 07:01]",
   "downloads": [
     {
       "title": "Стратегии",
@@ -343,13 +343,13 @@
       "linksHidden": false
     },
     {
-      "title": "Blade of God",
+      "title": "Devil Slayer Raksasi",
       "uris": [
-        "https://thelastgame.org/1686-blade-of-god.html"
+        "https://thelastgame.org/2893-devil-slayer-raksasi.html"
       ],
       "uploadDate": "Страница 1",
       "fileSize": "Доступно на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/1686-blade-of-god.html\">Открыть страницу загрузки игры</a>",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/2893-devil-slayer-raksasi.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
@@ -63823,16 +63823,6 @@
       "linksHidden": false
     },
     {
-      "title": "Devil Slayer Raksasi",
-      "uris": [
-        "https://thelastgame.org/2893-devil-slayer-raksasi.html"
-      ],
-      "uploadDate": "Страница 637",
-      "fileSize": "Доступно на сайте",
-      "descriptionHtml": "<a href=\"https://thelastgame.org/2893-devil-slayer-raksasi.html\">Открыть страницу загрузки игры</a>",
-      "linksHidden": false
-    },
-    {
       "title": "No Place for Bravery",
       "uris": [
         "https://thelastgame.org/1819-no-place-for-bravery.html"
@@ -91550,6 +91540,16 @@
       "uploadDate": "Страница 915",
       "fileSize": "Доступно на сайте",
       "descriptionHtml": "<a href=\"https://thelastgame.org/1687-lost-words-beyond-the-page.html\">Открыть страницу загрузки игры</a>",
+      "linksHidden": false
+    },
+    {
+      "title": "Blade of God",
+      "uris": [
+        "https://thelastgame.org/1686-blade-of-god.html"
+      ],
+      "uploadDate": "Страница 915",
+      "fileSize": "Доступно на сайте",
+      "descriptionHtml": "<a href=\"https://thelastgame.org/1686-blade-of-god.html\">Открыть страницу загрузки игры</a>",
       "linksHidden": false
     },
     {
